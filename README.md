@@ -1,59 +1,49 @@
-# Malware de Captura de Dados Simples em Python e Aprendendo a se Proteger
-
-
+# Santander - Cibersegurança 2025
 
 
 ![Logo](https://assets.dio.me/C_w739DMTY1XPvnkcaSY7doWFM9I5MREIuft-gfwJDY/f:webp/h:120/q:80/L3RyYWNrcy83MGI2Y2EwOC0xZDdlLTQxNTctYmI0OC05NmMxMTY0ZmQ3ZTcucG5n)
 
+https://web.dio.me/track/santander-ciberseguranca-2025
 
+<h1 align="center"> 🧩 Visão Geral</h1>
 
-<h1 align="center">Keylogger</h1>
-
-## 🧠 O que é um Keylogger
-
-Um **keylogger** é uma ferramenta que registra tudo o que é digitado no teclado. Pode ser usado por atacantes para roubar senhas, dados bancários e outras informações confidenciais.
-
----
-
-## ⚙️ Como funciona
-
-- **Software:** Instalado como malware via phishing, anexos maliciosos ou sites inseguros.
-- **Hardware:** Dispositivo físico conectado entre o teclado e o computador.
-- **Objetivo:** Capturar tudo que é digitado e enviar para o atacante.
-
----
-
-## 🚨 Riscos
-
-- Roubo de identidade
-- Fraudes financeiras
-- Espionagem corporativa
-
-
-![Evidência](https://github.com/tiagoas/Desafio-Santander---Ciberseguran-a-2025/blob/main/Keylogger/Dados%20Capturados.png)  
-*Figura 1: Dados capturados por keylogger durante a realização do desafio*
-
-
----
-
-## 🛡️ Como se proteger
-
-- Mantenha o sistema e programas atualizados
-- Use antivírus e antimalware confiáveis
-- Evite clicar em links ou abrir anexos suspeitos
-- Ative autenticação multifator (MFA)
-- Monitore processos e conexões de rede
-- Use firewall e ferramentas de detecção (EDR, SIEM)
-
----
-
-## 🔍 Como detectar um keylogger
-
-- Lentidão incomum no sistema
-- Atividades de rede suspeitas
-- Programas desconhecidos iniciando com o sistema
-- Arquivos ocultos ou logs em locais incomuns
+Usei ferramentas de segurança ofensiva e criei este conteúdo para finalizar o Desafio Santander ciberseguranca 2025 dentro da plataforma **DIO**. O objetivo foi demonstrar como diversas técnicas são aplicadas por atacantes para comprometer sistemas, roubar dados e obter acesso não autorizado. Entre as mais comuns estão os **keyloggers**, os **ataques de ransomware** e os **ataques de força bruta** em serviços vulneráveis como web login, FTP e SMB.
 
 
 
+- **Keyloggers** são ferramentas furtivas que registram tudo o que é digitado no teclado, permitindo o roubo de credenciais, dados bancários e informações sensíveis sem que o usuário perceba. Eles podem ser implementados como software malicioso ou dispositivos físicos conectados ao computador.
+
+- **Ransomware** é um tipo de malware que criptografa arquivos da vítima e exige pagamento para liberá-los. O ciclo de ataque envolve acesso inicial (geralmente por phishing ou serviços expostos), movimentação lateral, exfiltração de dados e exigência de resgate — muitas vezes com ameaça de divulgação pública.
+
+- **Ataques de força bruta** exploram serviços como **web login**, **FTP** e **SMB**, tentando diversas combinações de usuário e senha até encontrar credenciais válidas. Ferramentas como Medusa e Nmap são comumente utilizadas para automatizar esse processo e identificar vulnerabilidades.
+
+Essas técnicas representam riscos reais para indivíduos e organizações, exigindo medidas preventivas como autenticação multifator, monitoramento de rede, backups seguros e políticas de segurança bem definidas.
+
+
+## 🛠️ Ferramentas Utilizadas
+
+Durante os testes e simulações de ataque, utilizamos as seguintes ferramentas:
+
+- **VirtualBox** — para virtualização dos ambientes de teste  
+- **Medusa** — ferramenta de força bruta para serviços como FTP, HTTP e SMB  
+- **Metasploitable2** — máquina vulnerável usada como alvo para exploração  
+- **echo -e** — comando do shell utilizado para formatar e enviar strings com quebras de linha ou caracteres especiais  
+- **smbclient** — ferramenta de linha de comando para acesso e enumeração de compartilhamentos SMB  
+- **enum4linux** — script para enumeração de informações em serviços SMB  
+- **git** — sistema de controle de versão para gerenciamento dos arquivos e scripts  
+- **GitHub** — plataforma de hospedagem de código e documentação do projeto
+- **Kali Linuc** — Sistema operacional
+
+
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/tiago7w//">
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40">
+</a>  
+
+Linkedin
 
