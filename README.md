@@ -1,9 +1,9 @@
 # Malware de Captura de Dados Simples em Python e Aprendendo a se Proteger
 
 
-![Imagem](https://assets.dio.me/L5Lo3zVlkpexxdlQdkC_YhBGbW6rdOIClcpKFWpS5RE/f:webp/h:77/q:80/w:77/L2xhYl9wcm9qZWN0cy9iYWRnZXMvOTc3ZDNkNmEtYzMzYi00YjEwLWE1NTUtODM0YzdkYWE2MjkwLnBuZw)
 
 
+![Logo](https://assets.dio.me/C_w739DMTY1XPvnkcaSY7doWFM9I5MREIuft-gfwJDY/f:webp/h:120/q:80/L3RyYWNrcy83MGI2Y2EwOC0xZDdlLTQxNTctYmI0OC05NmMxMTY0ZmQ3ZTcucG5n)
 
 
 
@@ -53,6 +53,7 @@ Um **keylogger** é uma ferramenta que registra tudo o que é digitado no teclad
 - Atividades de rede suspeitas
 - Programas desconhecidos iniciando com o sistema
 - Arquivos ocultos ou logs em locais incomuns
+
 
 
 
