@@ -1,0 +1,13 @@
+123456
+password
+Passord
+qwerty
+msfadmin
+admin
+1234
+dvwa
+users
+
+login
+Dvwa
+Admin

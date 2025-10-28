@@ -1,0 +1,15 @@
+user
+msfadmin
+admin
+admim
+root
+admin
+dvwa
+root
+users
+tiago
+
+Tiago
+Admin
+Dvwa
+lucas
