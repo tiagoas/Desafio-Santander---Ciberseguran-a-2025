@@ -1,15 +1,14 @@
-# Malware de Captura de Dados Simples em Python e Aprendendo a se Proteger
-
-
-
-
-![Logo](https://assets.dio.me/C_w739DMTY1XPvnkcaSY7doWFM9I5MREIuft-gfwJDY/f:webp/h:120/q:80/L3RyYWNrcy83MGI2Y2EwOC0xZDdlLTQxNTctYmI0OC05NmMxMTY0ZmQ3ZTcucG5n)
-
-
 
 <h1 align="center">Keylogger</h1>
 
-## 🧠 O que é um Keylogger
+
+![Logo](https://assets.dio.me/L5Lo3zVlkpexxdlQdkC_YhBGbW6rdOIClcpKFWpS5RE/f:webp/h:77/q:80/w:77/L2xhYl9wcm9qZWN0cy9iYWRnZXMvOTc3ZDNkNmEtYzMzYi00YjEwLWE1NTUtODM0YzdkYWE2MjkwLnBuZw)
+
+
+
+
+
+## 💀 O que é um Keylogger
 
 Um **keylogger** é uma ferramenta que registra tudo o que é digitado no teclado. Pode ser usado por atacantes para roubar senhas, dados bancários e outras informações confidenciais.
 
@@ -32,6 +31,7 @@ Um **keylogger** é uma ferramenta que registra tudo o que é digitado no teclad
 
 ![Evidência](https://github.com/tiagoas/Desafio-Santander---Ciberseguran-a-2025/blob/main/Keylogger/Dados%20Capturados.png)  
 *Figura 1: Dados capturados por keylogger durante a realização do desafio*
+*Foi usado o email da vítima e do atacante. A imagem vista é do email do atacante recebendo os dados de teclas.*
 
 
 ---
@@ -54,6 +54,22 @@ Um **keylogger** é uma ferramenta que registra tudo o que é digitado no teclad
 - Programas desconhecidos iniciando com o sistema
 - Arquivos ocultos ou logs em locais incomuns
 
+- 
+
+
+## 🧠 O Código em python
+
+### 🔐 Primeiro Código – Envio por E-mail
+
+- **Captura de teclas**: Registra letras, números e teclas especiais (espaço, enter, backspace).
+- **Envio automático**: A cada 60 segundos, os dados são enviados por e-mail usando `smtplib`.
+- **Execução contínua**: O `keyboard.Listener` mantém o monitoramento ativo.
+
+### 🗂️ Segundo Código – Gravação em Arquivo
+
+- **Captura de teclas**: Registra tudo o que é digitado, ignorando teclas como Shift, Ctrl e Alt.
+- **Armazenamento local**: As informações são salvas diretamente no arquivo `log.txt`.
+- **Formato legível**: Teclas especiais são convertidas para símbolos visuais (ex.: `[ESC]`, `\n`, `\t`).
 
 
 
