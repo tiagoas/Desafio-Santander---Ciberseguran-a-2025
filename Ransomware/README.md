@@ -1,26 +1,37 @@
-
-![Logo](https://assets.dio.me/C_w739DMTY1XPvnkcaSY7doWFM9I5MREIuft-gfwJDY/f:webp/h:120/q:80/L3RyYWNrcy83MGI2Y2EwOC0xZDdlLTQxNTctYmI0OC05NmMxMTY0ZmQ3ZTcucG5n)
-
-
-![Evidência](https://github.com/tiagoas/Desafio-Santander---Ciberseguran-a-2025/blob/main/Keylogger/Dados%20Capturados.png)
+# Ransomware
 
 
-# 🛑 Ransomware Simulado em Python
+![Imagem](https://assets.dio.me/L5Lo3zVlkpexxdlQdkC_YhBGbW6rdOIClcpKFWpS5RE/f:webp/h:77/q:80/w:77/L2xhYl9wcm9qZWN0cy9iYWRnZXMvOTc3ZDNkNmEtYzMzYi00YjEwLWE1NTUtODM0YzdkYWE2MjkwLnBuZw)
 
-Este projeto demonstra o funcionamento básico de um **ransomware** — um tipo de software malicioso que criptografa arquivos e exige pagamento para restaurá-los. **⚠️ Este código é apenas para fins educacionais e de pesquisa. Não deve ser usado em ambientes reais ou para fins maliciosos.**
 
----
+### 🧠 Funcionamento do Ransomware
 
-## ⚙️ Funcionalidades
-
-- Geração de chave de criptografia com `Fernet` (biblioteca `cryptography`)
-- Criptografia de arquivos em uma pasta específica
-- Criação de mensagem de resgate
-- Exclusão de arquivos sensíveis do processo (como o próprio script e a chave)
+1. **Infecção inicial:** O ransomware entra no sistema por phishing, anexos maliciosos, downloads infectados ou exploração de vulnerabilidades.
+2. **Execução e propagação:** O malware se instala, desativa defesas e se espalha pela rede.
+3. **Criptografia:** Arquivos são criptografados, tornando-se inacessíveis.
+4. **Exigência de resgate:** Uma mensagem exige pagamento (geralmente em criptomoedas) para liberar os dados.
+5. **Extorsão dupla:** Além da criptografia, os dados podem ser roubados e ameaçados de divulgação.
 
 ---
 
-## 📁 Estrutura do Código
+### 🚨 Riscos Associados
+
+- **Perda de dados críticos**
+- **Prejuízo financeiro** com resgates e paralisação de operações
+- **Danos à reputação** por vazamento de informações
+- **Multas legais** por violação de dados (ex.: LGPD)
+
+---
+
+### 🛡️ Como se Proteger
+
+- **Backups regulares e offline**
+- **Atualizações constantes** de sistemas e softwares
+- **Antivírus e EDR** com proteção em tempo real
+- **Autenticação multifator (MFA)**
+- **Treinamento de usuários
+
+## 📁 Estrutura do Código utilizado
 
 ### 1. `gerar_chave()`
 Gera uma chave de criptografia e salva em `chave.key`.
